@@ -8,7 +8,7 @@ type Peer interface {
 
 // transport is anything that can handles communication between peers
 // the nodes in the network can have multiple transports
-
+// this can be TCP, UDP, WebRTC, etc.
 type Transport interface {
 
 }
